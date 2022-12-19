@@ -1,0 +1,100 @@
+:root {
+    --accent-color: #D98555;
+    --background-color: #59331d;
+    --style-white: #f2f2f2;
+    --accent-blue: #082B59;
+    --accent-blue-2: #131D26;
+    --font-body: 'Lato', sans-serif;
+    --font-body-size: 16px;
+    --font-body-size-sm: 10px;
+    --font-header: 'Poppins', sans-serif;
+    --font-header-size: 40px;
+    --font-header-size-mobile: 24px;
+}
+
+body {
+    background-color: var(--style-white);
+}
+
+.dialog-text {
+    font-family: var(--font-body);
+    color: var(--style-white);
+    margin-top: 20px;
+}
+.dialog-text-2 {
+    font-family: var(--font-body);
+    color: var(--accent-blue-2);
+    margin: 20px;
+}
+.stitle {
+    font-family: var(--font-header);
+    font-size: var(--font-header-size);
+    margin: 20px;
+    color: var(--accent-blue-2);
+}
+.buttons {
+    margin: 20px;
+}
+a:link {
+    color: var(--style-white);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--accent-color);
+}
+a:visited {
+    color: var(--style-white);
+}
+
+.navbar {
+    background-color: var(--background-color);
+}
+.nav-link-first {
+    color: var(--accent-color);
+}
+.nav-link {
+    color: var(--style-white);
+}
+.nav-link:hover {
+    color: var(--accent-color);
+}
+
+.active-1 {
+    color: var(--accent-color);
+}
+.container-spacer {
+    margin: 2rem;
+    padding: 2rem;
+}
+.btn {
+    color: var(--accent-color);
+    outline-color: var(--accent-color);
+}
+
+.btn a:link {
+    color: var(--accent-color);
+}
+.btn-outline-primary {
+    border-color: var(--accent-color);
+}
+
+.list-title {
+    color: var(--accent-color);
+}
+.icon {
+    color: var(--style-white);
+}
+ul {
+    margin: 20px;
+}
+.row {
+    margin: 10rem;
+}
+footer {
+    background-color: var(--background-color);
+    padding: 20px;
+}
+svg {
+    width: 20px;
+    margin: 20px;
+}
